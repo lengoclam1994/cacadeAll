@@ -50,6 +50,7 @@ public class DemoServiceImpl implements DemoService {
                             .computer(computer)
                             .build());
         }
+        System.out.println("Implement no 1");
         inventoryRepository.saveAll(inventories);
     }
 
