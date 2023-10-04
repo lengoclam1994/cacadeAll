@@ -52,6 +52,8 @@ public class DemoServiceImpl implements DemoService {
         }
         System.out.println("Master update 1");
         System.out.println("Master update 2");
+        System.out.println("Implement no 1");
+        System.out.println("implement no 1.1");
         inventoryRepository.saveAll(inventories);
     }
 
