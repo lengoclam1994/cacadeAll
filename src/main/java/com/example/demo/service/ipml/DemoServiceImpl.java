@@ -51,6 +51,7 @@ public class DemoServiceImpl implements DemoService {
                             .build());
         }
         System.out.println("Master update 1");
+        System.out.println("Master update 2");
         inventoryRepository.saveAll(inventories);
     }
 
